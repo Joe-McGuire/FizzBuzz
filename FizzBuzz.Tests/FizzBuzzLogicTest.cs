@@ -13,13 +13,10 @@ namespace FizzBuzz.Tests
             int start = 1;
             int end = 100;
 
-            int range = end - start + 1;
-
             FizzBuzzIterator.DoFizzBuzzRange(start, end, mockOutput);
 
-            Assert.AreEqual(range, mockOutput.Executions);
+            Assert.AreEqual(100, mockOutput.Executions);
         }
-
 
         [TestMethod]
         public void FizzBuzzLogic_WhenEndIsLessThanOrEqualToStart_MethodDoesNotExecute()

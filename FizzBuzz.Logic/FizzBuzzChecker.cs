@@ -11,19 +11,19 @@ namespace FizzBuzz.Logic
 
             if (fizz && buzz)
             {
-                return string.Empty;
+                return "FizzBuzz";
             }
             else if (fizz)
             {
-                return string.Empty;
+                return "Fizz";
             }
             else if (buzz)
             {
-                return string.Empty;
+                return "Buzz";
             }
             else
             {
-                return string.Empty;
+                return number.ToString();
             }
         }
     }
