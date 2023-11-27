@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FizzBuzz.Logic\FizzBuzz.Logic.csproj" />
+  </ItemGroup>
+
 </Project>
